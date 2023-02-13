@@ -1,4 +1,5 @@
 Membros: Emanuel Brito, Nicolas Franklin, Ítalo Probo.
+
 Ferramenta de gerenciamento de projeto: Notion.
 
 Tema Principal: Organizador de carteira de investimentos.
