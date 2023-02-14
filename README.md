@@ -18,4 +18,4 @@
 <br>
 <li>Nome: EasyPay.</li>
 <li>Área: Finanças.</li>
-<li>Problema que resolverá: Pagar contas atrasadas com multa</li>
+<li>Problema que resolverá: Pagar contas atrasadas com multa.</li>
