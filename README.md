@@ -1,21 +1,33 @@
-<b>Membros:</b> Emanuel Brito, Nicolas Franklin, Ítalo Probo.
-<br>
-<b>Ferramenta de gerenciamento de projeto:</b> Notion.<br>
-<br>
-<b>Tema 1: Organizador de carteira de investimentos.</b>
-<br>
-<li>Nome: Capitalise.</li>
-<li>Área: Finanças.</li>
-<li>Problema que resolverá: equilibrar o risco e o potencial de retorno de sua carteira.</li>
-<br>
-<b>Tema 2: Reunir informações de treino, bioimpedância, dieta.</b>
-<br>
-<li>Nome: HealthTex.</li>
-<li>Área: Saúde.</li>
-<li>Problema que resolverá: Acompanhar saúde corporal.</li>
-<br>
-<b>Tema 3: Lembrete para pagamentos recorrentes</b>
-<br>
-<li>Nome: EasyPay.</li>
-<li>Área: Finanças.</li>
-<li>Problema que resolverá: Pagar contas atrasadas com multa.</li>
+<h2>Membros:</h2>
+	<ul>
+		<li>Emanuel Brito</li>
+		<li>Nicolas Franklin</li>
+		<li>Ítalo Probo</li>
+	</ul>
+<h2>Ferramenta de Gerenciamento de Projeto:</h2>
+<p>Notion</p>
+
+<h2>Organizador de carteira de investimentos</h2>
+<ul>
+	<li><b>Nome:</b> Capitalise</li>
+	<li><b>Área:</b> Finanças</li>
+	<li><b>Problema que resolverá:</b> Equilibrar o risco e o potencial de retorno de uma carteira de investimentos</li>
+</ul>
+<h3>Descrição:</h3>
+<p>O projeto consiste em um organizador de carteira de investimentos chamado Capitalise, que oferece as seguintes funcionalidades:</p>
+<ul>
+	<li><b>Funcionalidade 1:</b> Cotação em tempo real dos ativos da B3</li>
+		<ul>
+			<li><b>Requisito:</b> Acesso à API da B3</li>
+      <li><b>Descrição:</b>Permite que o usuário do sistema tenha acesso às informações mais atualizadas sobre o preço dos ativos negociados na Bolsa de Valores brasileira</li>
+		</ul>
+	<li><b>Funcionalidade 2:</b> Recomendação de ativos de investimento</li>
+  	<ul>
+      <li><b>Descrição:</b>Tem como objetivo oferecer ao usuário sugestões de ativos que possam ser interessantes para investir, de acordo com o perfil de risco e as metas de investimento definidas pelo usuário</li>
+			<li><b>Requisito:</b> Acesso às carteiras recomendadas de casas de análise</li>
+		</ul>
+	<li><b>Funcionalidade 3:</b> Rebalanceamento da carteira</li>
+		<ul>
+			<li><b>Descrição</b>Listar quantidade e valor de compra dos ativos que devem ser comprados em um mês específico</li>
+		</ul>
+</ul>
