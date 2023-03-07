@@ -16,32 +16,38 @@
 <h3>Descrição:</h3>
 <p>O projeto consiste em um organizador de carteira de investimentos chamado Capitalise, que oferece as seguintes funcionalidades:</p>
 <ul>
-	<li><b>Funcionalidade 1:</b> Cotação em tempo real dos ativos da B3</li>
-		<ul>
-			<li><b>Requisito:</b> Acesso à API da B3</li>
-      <li><b>Descrição:</b> Permite que o usuário do sistema tenha acesso às informações mais atualizadas sobre o preço dos ativos negociados na Bolsa de Valores brasileira</li>
-		</ul>
-        <br>
-	<li><b>Funcionalidade 2:</b> Recomendação de ativos de investimento</li>
-  	<ul>
-      <li><b>Descrição:</b> Tem como objetivo oferecer ao usuário sugestões de ativos que possam ser interessantes para investir, de acordo com o perfil de risco e as metas de investimento definidas pelo usuário</li>
-			<li><b>Requisito:</b> Acesso às carteiras recomendadas de casas de análise</li>
-		</ul>
-        <br>
-	<li><b>Funcionalidade 3:</b> Rebalanceamento da carteira</li>
-		<ul>
-			<li><b>Descrição:</b> Listar quantidade e valor de compra dos ativos que devem ser comprados em um mês específico</li>
-		</ul>
-        <br>
-    <li><b>Funcionalidade 4:</b> Realizar cadastros de carteiras e ativos</li>
+	<li><b>Funcionalidade 1:</b>Cadastrar/Excluir/Alterar usuário</li>
+	<ul>
+		<li><b>Descrição:</b> Cadastrar usuário com nome, CPF, telfone e email</li>
+	</ul>
 		<br>
-    <li><b>Funcionalidade 5:</b> Exibir histórico da carteira</li>
+	<li><b>Funcionalidade 2:</b>Cadastrar/Excluir/Alterar carteiras</li>
+	<ul>
+		<li><b>Descrição:</b> O usuário vai cadastrar sua carteira: Nome, Categoria dos ativos, Meta</li>
+	</ul>
 		<br>
-    <li><b>Funcionalidade 6:</b> Acessar carteira</li>
+	<li><b>Funcionalidade 3:</b>Cadastrar Compra/Venda de ativos</li>
+	<ul>
+		<li><img src="7bc7832a-53f3-418d-a221-96d332a0b50b.jpeg" alt="" style="width: 300px;"></li>
+		<li><b>Descrição:</b> ☝️ O usuário vai cadastrar seu ativo: Data de compra ou venda, quantidade, cotação, taxa(corretagem)</li>
+	</ul>
 		<br>
-    <li><b>Funcionalidade 7:</b> Sugerir alterações na carteira</li>
+	<li><b>Funcionalidade 4:</b> Acessar carteira</li>
+	<ul>
+		<li><b>Descrição:</b></li> 
+	<ul>
+		<li>Exibir histórico da carteira, listar os ativos por saldo, valor de abertura, quantidade</li>
+		<li>Mostrar o grafico de evolução do patrimonio</li>
+		<li>Rentabilidade comparada a CDI, IBOVESPA, IPCA, IFIX e Poupança</li>
+		<li>Gráfico de proventos e dividendos recebidos ao longo do tempo</li>
+	</ul>
+	</ul>
 		<br>
-    <li><b>Funcionalidade 8:</b> Alterar quantidade de ativos</li>
+	<li><b>Funcionalidade 5:</b> Sugerir recomendações para carteira</li>
+	<ul>
+		<li><b>Descrição:</b> Orientar a compra ou venda de ativos, de acordo com o perfil de risco e metas de investimento definidas</li>
+		<li><b>Requisitos:</b> Acesso à API da B3 e carteiras recomendadas de casas de análise</li>
+		<li><b>Objetivo:</b> Manter um balanceamento adequado, em que cada ativo representa uma pequena participação na carteira.</li>
+	</ul>
 		<br>
-    <li><b>Funcionalidade 9:</b> Modificar carteiras</li>
 </ul>
