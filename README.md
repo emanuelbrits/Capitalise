@@ -19,15 +19,29 @@
 	<li><b>Funcionalidade 1:</b> Cotação em tempo real dos ativos da B3</li>
 		<ul>
 			<li><b>Requisito:</b> Acesso à API da B3</li>
-      <li><b>Descrição:</b>Permite que o usuário do sistema tenha acesso às informações mais atualizadas sobre o preço dos ativos negociados na Bolsa de Valores brasileira</li>
+      <li><b>Descrição:</b> Permite que o usuário do sistema tenha acesso às informações mais atualizadas sobre o preço dos ativos negociados na Bolsa de Valores brasileira</li>
 		</ul>
+        <br>
 	<li><b>Funcionalidade 2:</b> Recomendação de ativos de investimento</li>
   	<ul>
-      <li><b>Descrição:</b>Tem como objetivo oferecer ao usuário sugestões de ativos que possam ser interessantes para investir, de acordo com o perfil de risco e as metas de investimento definidas pelo usuário</li>
+      <li><b>Descrição:</b> Tem como objetivo oferecer ao usuário sugestões de ativos que possam ser interessantes para investir, de acordo com o perfil de risco e as metas de investimento definidas pelo usuário</li>
 			<li><b>Requisito:</b> Acesso às carteiras recomendadas de casas de análise</li>
 		</ul>
+        <br>
 	<li><b>Funcionalidade 3:</b> Rebalanceamento da carteira</li>
 		<ul>
-			<li><b>Descrição</b>Listar quantidade e valor de compra dos ativos que devem ser comprados em um mês específico</li>
+			<li><b>Descrição:</b> Listar quantidade e valor de compra dos ativos que devem ser comprados em um mês específico</li>
 		</ul>
+        <br>
+    <li><b>Funcionalidade 4:</b> Realizar cadastros de carteiras e ativos</li>
+		<br>
+    <li><b>Funcionalidade 5:</b> Exibir histórico da carteira</li>
+		<br>
+    <li><b>Funcionalidade 6:</b> Acessar carteira</li>
+		<br>
+    <li><b>Funcionalidade 7:</b> Sugerir alterações na carteira</li>
+		<br>
+    <li><b>Funcionalidade 8:</b> Alterar quantidade de ativos</li>
+		<br>
+    <li><b>Funcionalidade 9:</b> Modificar carteiras</li>
 </ul>
