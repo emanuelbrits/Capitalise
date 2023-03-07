@@ -16,20 +16,19 @@
 <h3>Descrição:</h3>
 <p>O projeto consiste em um organizador de carteira de investimentos chamado Capitalise, que oferece as seguintes funcionalidades:</p>
 <ul>
-	<li><b>Funcionalidade 1:</b>Cadastrar/Excluir/Alterar usuário</li>
+	<li><b>Funcionalidade 1:</b> Cadastrar/Excluir/Alterar usuário</li>
 	<ul>
 		<li><b>Descrição:</b> Cadastrar usuário com nome, CPF, telfone e email</li>
 	</ul>
 		<br>
-	<li><b>Funcionalidade 2:</b>Cadastrar/Excluir/Alterar carteiras</li>
+	<li><b>Funcionalidade 2:</b> Cadastrar/Excluir/Alterar carteiras</li>
 	<ul>
 		<li><b>Descrição:</b> O usuário vai cadastrar sua carteira: Nome, Categoria dos ativos, Meta</li>
 	</ul>
 		<br>
-	<li><b>Funcionalidade 3:</b>Cadastrar Compra/Venda de ativos</li>
+	<li><b>Funcionalidade 3:</b> Cadastrar Compra/Venda de ativos</li>
 	<ul>
-		<li><img src="7bc7832a-53f3-418d-a221-96d332a0b50b.jpeg" alt="" style="width: 300px;"></li>
-		<li><b>Descrição:</b> ☝️ O usuário vai cadastrar seu ativo: Data de compra ou venda, quantidade, cotação, taxa(corretagem)</li>
+		<li><b>Descrição:</b> O usuário vai cadastrar seu ativo: Data de compra ou venda, quantidade, cotação, taxa(corretagem)</li>
 	</ul>
 		<br>
 	<li><b>Funcionalidade 4:</b> Acessar carteira</li>
