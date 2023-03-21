@@ -52,12 +52,6 @@
 </ul>
 <h2>Links:</h2>
        <ul>
-
-		<li>Product backlog:https://nicolasfranklin.notion.site/6c628bbd7d8d460ba6178beb9e07da41?v=194ed2b50d0c48ed8622aa8c44a84c2d </li>
-
-
+		<li>Product backlog: https://nicolasfranklin.notion.site/6c628bbd7d8d460ba6178beb9e07da41?v=194ed2b50d0c48ed8622aa8c44a84c2d </li>
 		<li>Apresentação do product backlog: https://drive.google.com/file/d/1Y4xcLb--cWyYCk7w9lZKeLmJXmhhYgFZ/view?usp=share_link </li>
-
-
-
 	</ul>
