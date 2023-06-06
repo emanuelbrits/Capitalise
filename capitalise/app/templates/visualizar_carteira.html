@@ -1,0 +1,27 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Visualizar Carteira</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Valor Aplicado</th>
+                <th>Saldo Bruto</th>
+                <th>ID do Usuário</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for carteira in carteiras %}
+                <tr>
+                    <td>{{ carteira.id_carteira }}</td>
+                    <td>{{ carteira.valor_aplicado }}</td>
+                    <td>{{ carteira.saldo_bruto }}</td>
+                    <td>{{ carteira.id_usuario }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

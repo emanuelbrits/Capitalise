@@ -1,0 +1,24 @@
+<!-- criar_carteira.html -->
+
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Criar Carteira</h1>
+
+    <form method="POST" action="{% url 'criar_carteira' %}">
+        {% csrf_token %}
+        <div>
+            <label for="valor_aplicado">Valor Aplicado:</label>
+            <input type="number" name="valor_aplicado" id="valor_aplicado">
+        </div>
+        <div>
+            <label for="saldo_bruto">Saldo Bruto:</label>
+            <input type="number" name="saldo_bruto" id="saldo_bruto">
+        </div>
+        <div>
+            <label for="id_usuario">ID do Usuário:</label>
+            <input type="number" name="id_usuario" id="id_usuario">
+        </div>
+        <button type="submit">Criar</button>
+    </form>
+{% endblock %}
