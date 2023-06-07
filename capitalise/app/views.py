@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
-from .forms import CriarCarteiraForm, AdicionarAtivoForm
-from .models import Carteira, Acao
+from .forms import CriarCarteiraForm, AdicionarAtivoForm, UsuarioForm
+from .models import Carteira, Acao, Usuario
 
 def criar_carteira(request):
     if request.method == 'POST':
@@ -25,3 +25,13 @@ def adicionar_ativo(request):
 def visualizar_carteira(request):
     carteiras = Carteira.objects.all()
     return render(request, 'visualizar_carteira.html', {'carteiras': carteiras})
+
+def usuario(request):
+    if request.method == 'POST':
+        form = UsuarioForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('usuario')
+    else:
+        form = UsuarioForm()        
+    return render(request, 'usuario.html', {'form': form})
