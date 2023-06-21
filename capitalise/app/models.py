@@ -4,10 +4,10 @@ from django.db import models
 from django.db import models
 
 class Usuario(models.Model):
-    id_usuario = models.AutoField(primary_key=True)
-    nome = models.CharField(max_length=60)
-    cpf = models.CharField(max_length=11)
-    telefone = models.CharField(max_length=11)
+    cod_usr = models.AutoField(primary_key=True)
+    nom_usr = models.CharField(max_length=60)
+    num_cpf = models.CharField(max_length=11)
+    num_telefone = models.CharField(max_length=11)
     email = models.CharField(max_length=45)
     senha = models.CharField(max_length=45)
 
