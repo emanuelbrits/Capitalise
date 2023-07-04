@@ -1,12 +1,37 @@
 # Create your views here.
 from django.shortcuts import render, redirect
-from autenticacao.forms import LoginForms
+from autenticacao.forms import LoginForms, CadastroForms
 # from django.contrib.auth.models import User
 from django.contrib import auth
 from django.contrib import messages
+from django.contrib.auth.models import User
+#from ..app.models import Usuario
+
+def cadastro(request):
+    form = CadastroForms()
+
+    # if request.method == 'POST':
+    #     form = CadastroForms(request.POST)
+
+    #     if form.is_valid():
+    #         email = form['email'].value()
+    #         nome = form['nome'].value()
+    #         telefone = form['telefone'].value()
+    #         cpf = form['cpf'].value()
+    #         senha = form['senha'].value()
+    #         User.objects.create_user(nome, email, senha)
+    #         Usuario.objects.create(
+    #                     nom_usr=nome,
+    #                     num_cpf=cpf,
+    #                     num_telefone=telefone,
+    #                     end_email=email,
+    #                     senha=senha,
+    #                 )
+
+    return render(request, 'autenticacao/cadastro.html', {'form': form})
 
 def login(request):
-    form = LoginForms()
+    form = LoginForms()      
 
     if request.method == 'POST':
         form = LoginForms(request.POST)
